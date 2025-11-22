@@ -29,12 +29,14 @@ Designed to be stealthy, robust, and fault-tolerant against missing metadata (e.
 
 1. Clone the repository:
    ```git clone [https://github.com/BridgerAlderson/exchange-dumper.git](https://github.com/BridgerAlderson/exchange-dumper.git)```
+   
    ```cd ExDumper```
-2. Install dependencies:
+3. Install dependencies:
    ```pip3 install -r requirements.txt```
 
 ## 🚀 Usage
 ExDumper requires the target domain, a valid service account (or compromised user), and the target mailbox you wish to dump.
+
 ```python3 ExDumper.py --domain <DOMAIN> --user <USERNAME> --password '<PASSWORD>' --server <EXCHANGE_SERVER_IP> --target <TARGET_EMAIL>```
 
 **Output Structure**
