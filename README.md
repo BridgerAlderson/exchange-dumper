@@ -33,7 +33,7 @@ Designed to be stealthy, robust, and fault-tolerant against missing metadata (e.
    ```
    
    ```bash
-   cd ExDumper
+   cd exchange-dumper
    ```
    
 3. Install dependencies:
