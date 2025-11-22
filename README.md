@@ -28,7 +28,7 @@ Designed to be stealthy, robust, and fault-tolerant against missing metadata (e.
 ## 📦 Installation
 
 1. Clone the repository:
-   ```git clone [https://github.com/BridgerAlderson/exchange-dumper.git](https://github.com/BridgerAlderson/exchange-dumper.git)```
+   `git clone https://github.com/BridgerAlderson/exchange-dumper.git`
    
    ```cd ExDumper```
 3. Install dependencies:
