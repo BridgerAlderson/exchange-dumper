@@ -28,7 +28,7 @@ Designed to be stealthy, robust, and fault-tolerant against missing metadata (e.
 ## 📦 Installation
 
 1. Clone the repository:
-   ```git clone [https://github.com/YOUR_USERNAME/ExDumper.git](https://github.com/YOUR_USERNAME/ExDumper.git)```
+   ```git clone [https://github.com/BridgerAlderson/exchange-dumper.git](https://github.com/BridgerAlderson/exchange-dumper.git)```
    ```cd ExDumper```
 2. Install dependencies:
    ```pip3 install -r requirements.txt```
