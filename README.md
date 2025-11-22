@@ -28,20 +28,25 @@ Designed to be stealthy, robust, and fault-tolerant against missing metadata (e.
 ## 📦 Installation
 
 1. Clone the repository:
-   `git clone https://github.com/BridgerAlderson/exchange-dumper.git`
+   ```bash
+   git clone https://github.com/BridgerAlderson/exchange-dumper.git
    
-   ```cd ExDumper```
+   ```bash
+   cd ExDumper
 3. Install dependencies:
-   ```pip3 install -r requirements.txt```
+   ```bash
+   pip3 install -r requirements.txt
 
 ## 🚀 Usage
 ExDumper requires the target domain, a valid service account (or compromised user), and the target mailbox you wish to dump.
 
-```python3 ExDumper.py --domain <DOMAIN> --user <USERNAME> --password '<PASSWORD>' --server <EXCHANGE_SERVER_IP> --target <TARGET_EMAIL>```
+```bash
+python3 ExDumper.py --domain <DOMAIN> --user <USERNAME> --password '<PASSWORD>' --server <EXCHANGE_SERVER_IP> --target <TARGET_EMAIL>
 
 **Output Structure**
 The tool creates a timestamped directory for each session:
-```ExDump_administrator_20251121_163433/
+```bash
+ExDump_administrator_20251121_163433/
 ├── Attachments/     # Binary files extracted from emails
 ├── Calendar/        # Meeting details and appointments
 ├── Contacts/        # VCard-like contact dumps
@@ -50,7 +55,7 @@ The tool creates a timestamped directory for each session:
 ├── Sent/            # Outgoing mail (Check for sent credentials)
 ├── Tasks/           # To-Do lists
 └── ...
-```
+
 
 **EDUCATIONAL USE ONLY.**
 
